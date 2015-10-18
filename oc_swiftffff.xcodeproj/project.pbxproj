@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01CE4991BD201BD00868695 /* ObjectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C01CE4981BD201BD00868695 /* ObjectClass.m */; settings = {ASSET_TAGS = (); }; };
+		C077B3441BBBFA4200FEBE09 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C077B3421BBBFA4200FEBE09 /* Student.cpp */; };
+		C077B3471BBBFCB200FEBE09 /* cplusplus.mm in Sources */ = {isa = PBXBuildFile; fileRef = C077B3461BBBFCB200FEBE09 /* cplusplus.mm */; };
 		C0E434781BB569A700CB97BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E434771BB569A700CB97BD /* main.m */; };
 		C0E4347B1BB569A700CB97BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4347A1BB569A700CB97BD /* AppDelegate.m */; };
-		C0E4347E1BB569A700CB97BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4347D1BB569A700CB97BD /* ViewController.m */; };
+		C0E4347E1BB569A700CB97BD /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0E4347D1BB569A700CB97BD /* ViewController.mm */; };
 		C0E434811BB569A700CB97BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E4347F1BB569A700CB97BD /* Main.storyboard */; };
 		C0E434831BB569A700CB97BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E434821BB569A700CB97BD /* Images.xcassets */; };
 		C0E434861BB569A700CB97BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E434841BB569A700CB97BD /* LaunchScreen.xib */; };
 		C0E434921BB569A700CB97BD /* oc_swiftffffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E434911BB569A700CB97BD /* oc_swiftffffTests.m */; };
+		C0E4349E1BB569B800CB97BD /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E4349C1BB569B800CB97BD /* OCViewController.m */; };
+		C0E4349F1BB569B800CB97BD /* OCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E4349D1BB569B800CB97BD /* OCViewController.xib */; };
+		C0E434A21BB56A7800CB97BD /* SWIFTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E434A11BB56A7800CB97BD /* SWIFTViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +33,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C01CE4971BD201BD00868695 /* ObjectClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectClass.h; sourceTree = "<group>"; };
+		C01CE4981BD201BD00868695 /* ObjectClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectClass.m; sourceTree = "<group>"; };
+		C01CE49A1BD2088200868695 /* ObjectClassProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectClassProtocol.h; sourceTree = "<group>"; };
+		C01CE49B1BD20A0600868695 /* ObjectClass_Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectClass_Objc.h; sourceTree = "<group>"; };
+		C077B3421BBBFA4200FEBE09 /* Student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		C077B3431BBBFA4200FEBE09 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		C077B3451BBBFCB200FEBE09 /* cplusplus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cplusplus.h; sourceTree = "<group>"; };
+		C077B3461BBBFCB200FEBE09 /* cplusplus.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cplusplus.mm; sourceTree = "<group>"; };
 		C0E434721BB569A700CB97BD /* oc_swiftffff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oc_swiftffff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E434761BB569A700CB97BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E434771BB569A700CB97BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0E434791BB569A700CB97BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0E4347A1BB569A700CB97BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C0E4347C1BB569A700CB97BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C0E4347D1BB569A700CB97BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0E4347D1BB569A700CB97BD /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		C0E434801BB569A700CB97BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0E434821BB569A700CB97BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0E434851BB569A700CB97BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C0E4348B1BB569A700CB97BD /* oc_swiftffffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oc_swiftffffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E434901BB569A700CB97BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E434911BB569A700CB97BD /* oc_swiftffffTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oc_swiftffffTests.m; sourceTree = "<group>"; };
+		C0E4349B1BB569B800CB97BD /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		C0E4349C1BB569B800CB97BD /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		C0E4349D1BB569B800CB97BD /* OCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCViewController.xib; sourceTree = "<group>"; };
+		C0E434A01BB56A7800CB97BD /* oc_swiftffff-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oc_swiftffff-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0E434A11BB56A7800CB97BD /* SWIFTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWIFTViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +100,27 @@
 		C0E434741BB569A700CB97BD /* oc_swiftffff */ = {
 			isa = PBXGroup;
 			children = (
+				C01CE49B1BD20A0600868695 /* ObjectClass_Objc.h */,
+				C01CE49A1BD2088200868695 /* ObjectClassProtocol.h */,
+				C01CE4971BD201BD00868695 /* ObjectClass.h */,
+				C01CE4981BD201BD00868695 /* ObjectClass.m */,
 				C0E434791BB569A700CB97BD /* AppDelegate.h */,
 				C0E4347A1BB569A700CB97BD /* AppDelegate.m */,
 				C0E4347C1BB569A700CB97BD /* ViewController.h */,
-				C0E4347D1BB569A700CB97BD /* ViewController.m */,
+				C0E4347D1BB569A700CB97BD /* ViewController.mm */,
 				C0E4347F1BB569A700CB97BD /* Main.storyboard */,
 				C0E434821BB569A700CB97BD /* Images.xcassets */,
 				C0E434841BB569A700CB97BD /* LaunchScreen.xib */,
 				C0E434751BB569A700CB97BD /* Supporting Files */,
+				C0E4349B1BB569B800CB97BD /* OCViewController.h */,
+				C0E4349C1BB569B800CB97BD /* OCViewController.m */,
+				C0E4349D1BB569B800CB97BD /* OCViewController.xib */,
+				C0E434A11BB56A7800CB97BD /* SWIFTViewController.swift */,
+				C0E434A01BB56A7800CB97BD /* oc_swiftffff-Bridging-Header.h */,
+				C077B3421BBBFA4200FEBE09 /* Student.cpp */,
+				C077B3431BBBFA4200FEBE09 /* Student.h */,
+				C077B3451BBBFCB200FEBE09 /* cplusplus.h */,
+				C077B3461BBBFCB200FEBE09 /* cplusplus.mm */,
 			);
 			path = oc_swiftffff;
 			sourceTree = "<group>";
@@ -163,6 +195,8 @@
 		C0E4346A1BB569A700CB97BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "栾有数";
 				TargetAttributes = {
@@ -201,6 +235,7 @@
 			files = (
 				C0E434811BB569A700CB97BD /* Main.storyboard in Resources */,
 				C0E434861BB569A700CB97BD /* LaunchScreen.xib in Resources */,
+				C0E4349F1BB569B800CB97BD /* OCViewController.xib in Resources */,
 				C0E434831BB569A700CB97BD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E4347E1BB569A700CB97BD /* ViewController.m in Sources */,
+				C0E4347E1BB569A700CB97BD /* ViewController.mm in Sources */,
+				C0E434A21BB56A7800CB97BD /* SWIFTViewController.swift in Sources */,
 				C0E4347B1BB569A700CB97BD /* AppDelegate.m in Sources */,
+				C077B3441BBBFA4200FEBE09 /* Student.cpp in Sources */,
+				C077B3471BBBFCB200FEBE09 /* cplusplus.mm in Sources */,
+				C01CE4991BD201BD00868695 /* ObjectClass.m in Sources */,
+				C0E4349E1BB569B800CB97BD /* OCViewController.m in Sources */,
 				C0E434781BB569A700CB97BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +389,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = oc_swiftffff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "oc_swiftffff/oc_swiftffff-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -359,9 +402,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = oc_swiftffff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "oc_swiftffff/oc_swiftffff-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -418,6 +463,7 @@
 				C0E434971BB569A700CB97BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E434981BB569A700CB97BD /* Build configuration list for PBXNativeTarget "oc_swiftffffTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +472,7 @@
 				C0E4349A1BB569A700CB97BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

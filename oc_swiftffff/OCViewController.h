@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OCViewController.h
 //  oc_swiftffff
 //
 //  Created by 栾有数 on 15/9/25.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Student.h"
-@interface ViewController : UIViewController
 
+@interface OCViewController : UIViewController
 
 @end
-
